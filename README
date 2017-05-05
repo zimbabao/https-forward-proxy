@@ -1,0 +1,16 @@
+PS: Understand the risk of installing a private root certificate in your browser.
+This is for test only and frequently change the root certificate.
+
+Steps to use
+
+2. Install deps :  'npm install'
+3. Start proxy : 'node App.js'
+5. Add ca cert ./certs/ca.pem to your browser's root cert store
+7. Set https forward proxy to 127.0.0.1:3443
+11. Open https site in browser
+
+Links demoing way to install root certs
+a. Chrome in mac https://derflounder.wordpress.com/2011/03/13/adding-new-trusted-root-certificates-to-system-keychain/
+    sudo /usr/bin/security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain certs/ca.pem
+e. Firefox https://wiki.wmtransfer.com/projects/webmoney/wiki/Installing_root_certificate_in_Mozilla_Firefox
+i. Chrome on Linux http://blog.avirtualhome.com/adding-ssl-certificates-to-google-chrome-linux-ubuntu/

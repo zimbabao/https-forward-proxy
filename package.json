@@ -1,0 +1,17 @@
+{
+  "name": "https-forward-proxy",
+  "version": "1.0.0",
+  "description": "HTTPS forward proxy with certificate auto generation",
+  "main": "App.js",
+  "dependencies": {
+    "http-mitm-proxy": "^0.5.2",
+    "http-proxy": "^1.16.2",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zimbabao Borbaki",
+  "license": "ISC"
+}
